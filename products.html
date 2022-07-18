@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link href="link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation
+&family=Edu+TAS+Beginner&family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/
+font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+
+    
+      
+    
+      
+      <div class="navbar">
+        <div class="logo">
+          <a href="index2.html"><img src="images/logo.png" width="150" style="margin-left:4%;margin-top:2% ;" ></a>
+        </div>
+        <nav>
+          <div class="container">
+          <ul id="menuitems">
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="products.html">New Arrivals</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </div>
+        </nav>
+        <a href="cart.html" style="margin-right: 3%;"><img src="images/cart.png" width="30px" height="30px" ></a>
+        <img src="images/menu.png"class="menu-icon" onclick="menutoggle()">
+          
+        </div>
+
+
+
+<!-------featured products ------->
+
+<div class="small-container">
+
+  <div class="row row-2">
+    <h2>All Products</h2>
+    <select>
+      <option>Default Sorting</option>
+      <option>Sort by price</option>
+      <option>Sort by popularity</option>
+      <option>Sort by rating</option>
+      <option>Sort by sale</option>
+    </select>
+
+  </div>
+    <div class="row">
+      <div class="col-4">
+        <a href="singleproduct.html"><img src="images/samsung_product.jpg" onclick="menured()">
+        <div class="col-4">
+          <h4>SAMSUNG Galaxy S21 </h4></a>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p id="red"><small>Actual price:<strike>54,999.00</strike></small><br><small>Our price :</small>  49,999.00 </p>
+      </div>
+    </div>
+      <div class="col-4" >
+        <img src="images/oneplus-p.jpg" >
+        <div class="col-4">
+        <h4>OnePlus 10 Pro </h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+      </div>
+      
+        <p><small>Actual price:<strike>66,999.00</strike></small><br><small>Our price :</small>  64,999.00 </p>
+      </div>
+      </div>
+      <div class="col-4">
+        <img src="images/iphone-product.jpg" >
+        <div class="col-4">
+        <h4>iphone 12 Pro</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p><small>Actual price:<strike>70,999.00</strike></small><br><small>Our price :</small>  60,999.00 </p>
+      </div>
+      </div>
+      <div class="col-4">
+        <img src="images/redmi-product.jpg">
+        <div class="col-4">
+        <h4>Redmi Note 11 Pro+</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p><small>Actual price:<strike>24,999.00</strike></small><br><small>Our price :</small>  20,999.00 </p>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/samsung-product2.jpg">
+          <div class="col-4">
+          <h4>Samsung Galaxy M33</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>23,999.00</p>
+        </div>
+    </div>
+        <div class="col-4">
+          <img src="images/oneplus-product2.jpg">
+          <div class="col-4">
+          <h4>One Plus CE2</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>24,999.00</p>
+        </div>
+    </div>
+        <div class="col-4">
+          <img src="images/oppo-product.jpg">
+          <div class="col-4">
+          <h4>OPPO A74</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>14,999.00</p>
+        </div>
+    </div>
+        <div class="col-4">
+          <img src="images/mi-product.jpg" height="210">
+          <div class="col-4">
+          <h4>Mi 11X</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>24,999.00</p>
+        </div>
+        </div>
+        </div>
+      
+  <div class="row">
+    <div class="col-4">
+      <img src="images/vivoT1.jpg">
+      <h4>Vivo T1 44W</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>14,999.00</p>
+    </div>
+    <div class="col-4" width="100px">
+      <img src="images/asus-rog.jpg"  height="300px">
+      <div class="col-4">
+      <h4>Asus ROG</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+      </div>
+      <p>49,999.00</p>
+    </div>
+  </div>
+
+    <div class="col-4">
+      <img src="images/oppo-product3.jpg" width="100px" height="300px">
+      <div class="col-4">
+      <h4>OPPO A10</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>9,999.00</p>
+    </div>
+  </div>
+    <div class="col-4">
+      <img src="images/realme-product-3.jpg" width="100px" height="300px" >
+      <div class="col-4">
+      <h4>Realme Narzo</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+      </div>
+      <p>14,999.00</p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="page-btn">
+  <span>1</span>
+  <span>2</span>
+  <span>3</span>
+  <span>4</span>
+  <span>&#8594</span>
+</div>
+
+</div>
+
+
+<!---------footer----------->
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download our App</h3>
+        <p>Download App for Android and ios mobile phones.</p>
+        <div class="app-logo">
+          <img src="images/play-store.png">
+          <img src="images/app-store.png">
+
+        </div>
+      </div>
+      <div class="footer-col-2">
+        <img src="images/logo-white.png">
+        <p>Our Purpose is to sustainably make the pleasure<br> and benefits
+          of Phones to the many.</p>
+      </div>
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>Coupons</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>join Affiiate</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Instagram</li>
+          <li>Twitter</li>
+          <li>YouTube</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2022 (E-Commerce Website)</p>
+  </div>
+</div>
+<!----------js for toggle menu------>
+<script>
+  var menuitems = document.getElementById("menuitems");
+
+  menuitems.style.maxHeight = "0px";
+
+  function menutoggle(){
+    if(menuitems.style.maxHeight == "0px")
+    {
+      menuitems.style.maxHeight = "200px"
+    }
+    else {
+      menuitems.style.maxHeight = "0px"
+    }
+  }
+</script>
+
+
+  </body>
+</html>
